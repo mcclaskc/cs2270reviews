@@ -2,7 +2,9 @@ Engineering Fellows - cs2270 Final Review
 =========================================
 *With Chris McClaskey and Peter Klipfel*
 
-I (Chris) will be in the csel from 7am until your midterm if anyone wants to come in and 
+**More questions will be added throughout the day up until the Review Session. Surprisingly enough, us fellows have final exams too :D Full answers will be posted after the review session**
+
+I (Chris) will be in the csel from 7am Wednesday until your midterm if anyone wants to come in and 
 talk or ask questions. I will also do my best to answer any questions over email:  
 christopher.m.mcclaskey@gmail.com
 
@@ -58,11 +60,6 @@ int G(int n) {
 
 Finite State Machine (FSM) 
 -------------------------------------
-### general info
-
-### fsm - c
-
-### fsm - p
 ***(1)***What will this code print
 ```
 static int withVar(int n){
@@ -122,30 +119,24 @@ Graphs / Trees
 
 **(2)** How is a graph different than a tree or a linked list?
 
-### Dijkstra - c
+**(3)** What is Dijkstra's algorithm used for?
 
-### Dijkstra - p
-**(1)**
-What is Dijkstra's algorithm used for?
+**(4)** Write psuedo code that implements Dijkstra's.  Include What data structures you will need, what the inputs and outputs are, etc.
 
 Complexity / Big-O Notation
 -------------------------------------
-### general info
-
-### bigO - c
-
-### big0 - p
 **(1)**
 Which has better time complexity?
 O(log(n)) or O(n)
 O(2^n) or O(n!)
 O(n) or O(nlog(n))
 
+**(2)** What is the complexity of Dijkstra's?  Searching a Binary Search Tree?
 
 For Fun Only (Not on your test)
 -------------------------------
 The following problem is a common inteview question.  
-Answers can be found all over the interwebs, but I think it's fun to challenge yourself and see how few lines you can do it in before going crazy (especially with C++).  Plus if you practice it you'll be able to answer it on the spot and impress some fools.
+Answers can be found all over the interwebs, but I think it's fun to challenge yourself and see how few lines you can do it in before going crazy (especially with C++).  Plus if you practice it you'll be able to answer it on the spot and impress some fools.  Perhaps you can implement some **data structes** to make it better eh?
 ```c++
 void fizzbuzz() {
   // iterate through the numbers 1-100.  
