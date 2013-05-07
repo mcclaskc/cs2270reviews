@@ -64,7 +64,7 @@ Finite State Machine (FSM)
 
 ### fsm - p
 ***(1)***What will this code print
-````
+```
 static int withVar(int n){
   int state = 0;
   while(n > 0){
@@ -109,9 +109,11 @@ static void printSomeStuff(int state){
 }
 
 withVar(15);
-````
-
-***(2)***
+```
+**(2)**
+How could you rewrite withVar using a loop?
+How could you rewrite withVar using recursion?
+**(3)**
 In what other ways could we make a finite state machine?
 
 Graphs / Trees
