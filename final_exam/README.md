@@ -26,7 +26,7 @@ Pointers and Recursion
   cout << *joe << endl;
 ```
 
-**(3)** Fill in the function to to see if a linked list is in increasing order. Use recursion.
+**(3)** Fill in the function to to see if a linked list is in increasing order (by node data, ie 0, 1, 2, etc). Use recursion.
 ```c++
 struct node {
   int data;
@@ -54,9 +54,7 @@ Finite State Machine (FSM)
 
 Graphs
 -------------------------------------
-### general info
-
-### DFS / BFS - c
+**(1)** What is the difference between BFS and DFS?
 
 ### DFS / BFS - p
 
