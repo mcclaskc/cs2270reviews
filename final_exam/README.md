@@ -131,3 +131,8 @@ Compexity / Big-O Notation
 ### bigO - c
 
 ### big0 - p
+**(1)**
+Which has better time complexity?
+O(log(n)) or O(n)
+O(2^n) or O(n!)
+O(n) or O(nlog(n))
