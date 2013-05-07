@@ -128,7 +128,7 @@ Graphs / Trees
 **(1)**
 What is Dijkstra's algorithm used for?
 
-Compexity / Big-O Notation
+Complexity / Big-O Notation
 -------------------------------------
 ### general info
 
@@ -140,3 +140,31 @@ Which has better time complexity?
 O(log(n)) or O(n)
 O(2^n) or O(n!)
 O(n) or O(nlog(n))
+
+
+For Fun Only (Not on your test)
+-------------------------------
+The following problem is a common inteview question.  
+Answers can be found all over the interwebs, but I think it's fun to challenge yourself and see how few lines you can do it in before going crazy (especially with C++).  Plus if you practice it you'll be able to answer it on the spot and impress some fools.
+```c++
+void fizzbuzz() {
+  // iterate through the numbers 1-100.  
+  // If the number is divisible by 3, print out "fizz"
+  // If the number is divisible by 5, print out "buzz"
+  // If the number is divisible by both 3 and 5, print out "fizzbuzz"
+  // Otherwise, just print out the number.
+  //
+  // 1
+  // 2
+  // fizz
+  // 4
+  // buzz
+  // ...
+  // ...
+  // 14
+  // fizzbuzz
+  // 16
+  // ...
+  // etc
+}
+```
