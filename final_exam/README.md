@@ -43,9 +43,19 @@ bool is_increasing(node* n) {
 ### pointers / recursion - p
 
 ### pointers / recursion - p
-Why do we use recursion instead of loops?
-What are mutually recursive functions?
-
+**(1)**Why do we use recursion instead of loops?
+**(2)**What are mutually recursive functions?
+**(3)**What does this code do?
+```
+int F(int n) {
+    if ( n == 0 ) return 1;
+    return n - G(n-1);
+  }
+int G(int n) {
+    if ( n == 0 ) return 1;
+    return n - F(n-1);
+  }
+```
 
 Finite State Machine (FSM) 
 -------------------------------------

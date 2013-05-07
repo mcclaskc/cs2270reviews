@@ -160,6 +160,19 @@ int get_path_sum(bt_node* root, bt_node* leaf) {
 
 }
 
+class MutualFns
+{
+public:
+  static int F(int n) {
+    if ( n == 0 ) return 1;
+    return n - M(n-1);
+  }
+  static int M(int n) {
+    if ( n == 0 ) return 0;
+    return n - F(n-1);
+  }
+};
+
 //Main function to fun all the above functions. Compile and run in the terminal like this:
 //g++ cs2270.cpp -o cs2270 && ./cs2270 number
 //where number equals 0,1,or 2 to call each function (0 for pointer easy, 1 or product, etc)
@@ -226,6 +239,11 @@ int main(int argc, char* argv[]) {
         cout << "DATA: " << tmp->data << endl;
         tmp = tmp->next;
       }
+    }
+
+    case '7': {
+      for(int i=0; i<10; i++)
+        cout << "F("<< i <<") = " << MutualFns::F(i) << endl; 
     }
   }
   
