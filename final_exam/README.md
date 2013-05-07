@@ -1,8 +1,14 @@
 Engineering Fellows - cs2270 Final Review
 =========================================
+#### To get to this doc, go here:
+####https://github.com/mcclaskc/cs2270reviews/edit/master/final_exam/README.md
+
+---
+
 *With Chris McClaskey and Peter Klipfel*
 
 **5/7/13, 5pm-7pm in DLC 1B70**
+
 
 **Answers will be filled out together as we do the review.  Some of the easier ones are already there.  If we don't finish, I will upload all the answers by no later than 10pm**
 
