@@ -9,11 +9,12 @@ christopher.m.mcclaskey@gmail.com
 Good luck on your test!
 
 
-Review Questions
-----------------
+# Review Questions
+-------------------------------------
 
-# Pointers and Recursion - general info
-
+Pointers and Recursion 
+-------------------------------------
+### general info
 ### pointers / recursion - c
 
 ### pointers / recursion - c
@@ -22,13 +23,17 @@ Review Questions
 
 ### pointers / recursion - p
 
-# Finite State Machine (FSM) - general info
+Finite State Machine (FSM) 
+-------------------------------------
+### general info
 
 ### fsm - c
 
 ### fsm - p
 
-# Graphs - general info
+Graphs
+-------------------------------------
+### general info
 
 ### DFS / BFS - c
 
@@ -38,7 +43,9 @@ Review Questions
 
 ### Dijkstra - p
 
-# Compexity / Big-O Notation - general info
+Compexity / Big-O Notation
+-------------------------------------
+### general info
 
 ### bigO - c
 
