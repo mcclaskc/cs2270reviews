@@ -160,6 +160,65 @@ int get_path_sum(bt_node* root, bt_node* leaf) {
 
 }
 
+class MutualFns
+{
+public:
+  static int F(int n) {
+    if ( n == 0 ) return 1;
+    return n - M(n-1);
+  }
+  static int M(int n) {
+    if ( n == 0 ) return 0;
+    return n - F(n-1);
+  }
+};
+
+class FiniteState{
+public:
+  static int withVar(int n){
+    int state = 0;
+    while(n > 0){
+      if(n%5==0){
+        state = 4;
+      }
+      else if(n%4==0){
+        state = 3;
+      }
+      else if(n%3==0){
+        state = 2;
+      }
+      else if(n%2==0){
+        state = 1;
+      }
+      else{
+        state = 0;
+      }
+      n = (2*n/3)-1;
+      printSomeStuff(state);
+    }
+  }
+  static void printSomeStuff(int state){
+    if(state==0){
+      cout << "Grumble" << endl;
+    }
+    else if(state==1){
+      cout << "It's tricky to rock a rhyme" << endl;
+    }
+    else if(state==2){
+      cout << "Computers are useless" << endl;
+    }
+    else if(state==3){
+      cout << "Wibbly wobbly timey wimey" << endl;
+    }
+    else if(state==4){
+      cout << "To Victory" << endl;
+    }
+    else{
+      cout << "Why am I here?" << endl;
+    }
+  }
+};
+
 //Main function to fun all the above functions. Compile and run in the terminal like this:
 //g++ cs2270.cpp -o cs2270 && ./cs2270 number
 //where number equals 0,1,or 2 to call each function (0 for pointer easy, 1 or product, etc)
@@ -227,8 +286,14 @@ int main(int argc, char* argv[]) {
         tmp = tmp->next;
       }
     }
+
     case '7': {
-      fizzbuzz();
+      for(int i=0; i<10; i++)
+        cout << "F("<< i <<") = " << MutualFns::F(i) << endl; 
+    }
+
+    case '8':{
+      FiniteState::withVar(15);
     }
   }
   
