@@ -26,7 +26,7 @@ Pointers and Recursion
   cout << *joe << endl;
 ```
 
-**(3)** Fill in the function to to see if a linked list is in increasing order (by node data, ie 0, 1, 2, etc). Use recursion.
+**(3)** Fill in the function to to see if a linked list is sorted in increasing order (ie the data in all nodes is less than the data in the next node). Use recursion.
 ```c++
 struct node {
   int data;

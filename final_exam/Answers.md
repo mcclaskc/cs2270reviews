@@ -1,3 +1,6 @@
+Pointers and Recursion
+----------------------
+
 **(1)** To return the address of a variable or object, and to pass a parameter into a function by reference.
 
 **(2)** 
@@ -14,4 +17,4 @@ bool is_increasing(node* n) {
   return (n->data < n->next->data && is_increasing(n->next));
 }
 ```
-**(4)** ```->``` is syntactic sugar for ```(*some_ptr).some_member```.  It means access some_member from the thing that some_ptr is pointing at.  This is so common they made a shortcut.
+**(4)** ```->``` is syntactic sugar for ```(*some_ptr).some_member```.  It means access some_member from the thing that some_ptr is pointing at.  This is so common they made a shortcut: ```some_ptr->some_member```
