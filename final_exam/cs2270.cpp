@@ -24,7 +24,7 @@ bool is_increasing(node* n) {
 // my personal lazy / hard way to generate a binary tree with nodes 1-7, with 4 being at the head
 bt_node* gen_binary_tree() {
   bt_node* head = new bt_node;
-  head->dat = 4;
+  head->data = 4;
   bt_node* two = new bt_node;
   head->left = two;
   two->data = 2;
