@@ -125,6 +125,8 @@ Graphs / Trees
 ### Dijkstra - c
 
 ### Dijkstra - p
+**(1)**
+What is Dijkstra's algorithm used for?
 
 Compexity / Big-O Notation
 -------------------------------------
