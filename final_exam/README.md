@@ -2,7 +2,9 @@ Engineering Fellows - cs2270 Final Review
 =========================================
 *With Chris McClaskey and Peter Klipfel*
 
-**More questions will be added throughout the day up until the Review Session. Surprisingly enough, us fellows have final exams too :D Full answers will be posted after the review session**
+**5/7/13, 5pm-7pm in DLC 1B70**
+
+**More questions will be added throughout the day up until the Review Session . Surprisingly enough, us fellows have final exams too :D Full answers will be posted after the review session**
 
 I (Chris) will be in the csel from 7am Wednesday until your midterm if anyone wants to come in and 
 talk or ask questions. I will also do my best to answer any questions over email:  
