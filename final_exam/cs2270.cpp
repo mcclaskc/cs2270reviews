@@ -16,6 +16,11 @@ struct bt_node {
 };
 
 
+bool is_increasing(node* n) {
+  //your code goes here
+}
+
+
 // my personal lazy / hard way to generate a binary tree with nodes 1-7, with 4 being at the head
 bt_node* gen_binary_tree() {
   bt_node* head = new bt_node;
@@ -39,6 +44,19 @@ bt_node* gen_binary_tree() {
   six->right = seven;
   seven->data = 7;
   return head;
+}
+
+node* gen_ordered_linked_list(bool in_order) {
+  node* one = new node;
+  node* zero_or_two = new node;
+  node* three = new node;
+  one->data = 1;
+  zero_or_two->data = in_order * 2;
+  three->data = 3;
+  one->next = zero_or_two;
+  zero_or_two->next = three;
+  three->next = NULL;
+  return one;
 }
 
 // Full implementation of contains from midterm 1, problem 5
@@ -191,6 +209,23 @@ int main(int argc, char* argv[]) {
       cout << "contains 10: " << contains(top, 10) << endl;
       cout << "contains 11: " << contains(top, 11) << endl;
 
+    }
+
+    case '6': {
+      node* in_order = gen_ordered_linked_list(true);
+      node* not_in_order = gen_ordered_linked_list(false);
+      cout << "in_order is increasing? " << is_increasing(in_order) << endl;
+      cout << "not_in_order is increasing? " << is_increasing(not_in_order) << endl;
+      node* tmp = in_order;
+      while (tmp != NULL) {
+        cout << "DATA: " << tmp->data << endl;
+        tmp = tmp->next;
+      }
+      tmp = not_in_order;
+      while (tmp != NULL) {
+        cout << "DATA: " << tmp->data << endl;
+        tmp = tmp->next;
+      }
     }
   }
   
