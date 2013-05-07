@@ -15,8 +15,6 @@ struct bt_node {
   bt_node* right;
 };
 
-
-// my personal lazy / hard way to generate a binary tree with nodes 1-7, with 4 being at the head
 bt_node* gen_binary_tree() {
   bt_node* head = new bt_node;
   head->data = 4;
@@ -41,7 +39,7 @@ bt_node* gen_binary_tree() {
   return head;
 }
 
-// Full implementation of contains from midterm 1, problem 5
+
 bool contains(node* top, int value) {
   if (top==NULL) return false;
   if (top->data == value) return true;
@@ -65,11 +63,9 @@ void linked_list_append(node* n, int data) {
     prev->next = new_node;
   }
 }
-
-// full implementation of to_list from midterm 1, problem 1
 void to_list_helper(bt_node* bt_head, node* n) {
   if(bt_head == NULL) { return; }
-  //cout << "bt_head: " << bt_head->data << endl;
+  cout << "bt_head: " << bt_head->data << endl;
   to_list_helper(bt_head->left, n);
   linked_list_append(n, bt_head->data);
   to_list_helper(bt_head->right, n);
@@ -114,7 +110,10 @@ int size(node* root) {
   }
 }
 
-//This is as far as we got on get_path_sum in the review for the first midterm
+//This is as far as we got on get_path_sum.  If I have time tonight I will try to get a working 
+//version pushed up.  I will be in the csel from 7am to 2ish if anyone wants to come in and 
+//talk or ask questions. I will also do my best to answer any questions over email:  
+//christopher.m.mcclaskey@gmail.com
 int get_path_sum(bt_node* root, bt_node* leaf) {
   if(root==NULL) {
     //root was null, the tree is empty, so our sum is zero
