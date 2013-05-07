@@ -227,6 +227,9 @@ int main(int argc, char* argv[]) {
         tmp = tmp->next;
       }
     }
+    case '7': {
+      fizzbuzz();
+    }
   }
   
 
