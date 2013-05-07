@@ -40,10 +40,11 @@ bool is_increasing(node* n) {
 
 **(4)** Explain in detail what ```->``` means in C++.
 
-### pointers / recursion - p
-**(1)**Why do we use recursion instead of loops?
-**(2)**What are mutually recursive functions?
-**(3)**What does this code do?
+**(5)** Why do we use recursion instead of loops?
+
+**(6)** What are mutually recursive functions?
+
+**(7)** What does this code do?
 ```
 int F(int n) {
     if ( n == 0 ) return 1;
@@ -113,11 +114,11 @@ withVar(15);
 ***(2)***
 In what other ways could we make a finite state machine?
 
-Graphs
+Graphs / Trees
 -------------------------------------
 **(1)** What is the difference between BFS and DFS?
 
-### DFS / BFS - p
+**(2)** How is a graph different than a tree or a linked list?
 
 ### Dijkstra - c
 
