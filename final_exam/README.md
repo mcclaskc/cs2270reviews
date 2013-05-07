@@ -125,6 +125,19 @@ Graphs / Trees
 
 **(4)** Write psuedo code that implements Dijkstra's.  Include What data structures you will need, what the inputs and outputs are, etc.
 
+##### A cool animation that visualizes Dijkstra's nicely can be found [here](http://optlab-server.sce.carleton.ca/POAnimations2007/DijkstrasAlgo.html)
+
+**(5)** Change the following implementation of an "In Order Traversal" of a Binary Tree to a "Post Order Traversal".  How could you also modify it to do a "Pre Order Traversal"?
+
+```c++
+void traverseBinaryTree(bt_node* n) {
+  if (n == NULL ) return;
+  traverseBinaryTree(n->left);
+  cout << n->data << endl; //here, "visiting" the node simply means printing out it's data.
+  traverseBinaryTree(n->left);
+}
+```
+
 Complexity / Big-O Notation
 -------------------------------------
 **(1)**
