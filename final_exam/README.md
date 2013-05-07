@@ -22,6 +22,9 @@ Pointers and Recursion
 ### pointers / recursion - p
 
 ### pointers / recursion - p
+Why do we use recursion instead of loops?
+What are mutually recursive functions?
+
 
 Finite State Machine (FSM) 
 -------------------------------------
@@ -30,6 +33,7 @@ Finite State Machine (FSM)
 ### fsm - c
 
 ### fsm - p
+
 
 Graphs
 -------------------------------------
