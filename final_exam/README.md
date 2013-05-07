@@ -41,8 +41,6 @@ bool is_increasing(node* n) {
 **(4)** Explain in detail what ```->``` means in C++.
 
 ### pointers / recursion - p
-
-### pointers / recursion - p
 **(1)**Why do we use recursion instead of loops?
 **(2)**What are mutually recursive functions?
 **(3)**What does this code do?
@@ -64,7 +62,56 @@ Finite State Machine (FSM)
 ### fsm - c
 
 ### fsm - p
+***(1)***What will this code print
+````
+static int withVar(int n){
+  int state = 0;
+  while(n > 0){
+    if(n%5==0){
+      state = 4;
+    }
+    else if(n%4==0){
+      state = 3;
+    }
+    else if(n%3==0){
+      state = 2;
+    }
+    else if(n%2==0){
+      state = 1;
+    }
+    else{
+      state = 0;
+    }
+    n = (2*n/3)-1;
+    printSomeStuff(state);
+  }
+}
+static void printSomeStuff(int state){
+  if(state==0){
+    cout << "Grumble" << endl;
+  }
+  else if(state==1){
+    cout << "It's tricky to rock a rhyme" << endl;
+  }
+  else if(state==2){
+    cout << "Computers are useless" << endl;
+  }
+  else if(state==3){
+    cout << "Wibbly wobbly timey wimey" << endl;
+  }
+  else if(state==4){
+    cout << "To Victory" << endl;
+  }
+  else{
+    cout << "Why am I here?" << endl;
+  }
+}
 
+withVar(15);
+````
+
+***(2)***
+In what other ways could we make a finite state machine?
 
 Graphs
 -------------------------------------
