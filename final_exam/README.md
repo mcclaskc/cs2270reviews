@@ -37,7 +37,7 @@ Pointers and Recursion
   cout << *joe << endl;
 ```
 
-**(3)** Fill in the function to to see if a linked list is sorted in increasing order (ie the data in all nodes is less than the data in the next node). Use recursion.
+**(3)** Fill in the function to to see if a linked list is sorted in increasing order (ie the data in all nodes is less than the data in the next node). You MUST use recursion.
 ```c++
 struct node {
   int data;
